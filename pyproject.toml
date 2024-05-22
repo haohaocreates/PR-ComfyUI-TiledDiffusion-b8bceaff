@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-tileddiffusion"
+description = "The extension enables large image drawing & upscaling with limited VRAM via the following techniques:\n1.Two SOTA diffusion tiling algorithms: [a/Mixture of Diffusers](https://github.com/albarji/mixture-of-diffusers) and [a/MultiDiffusion](https://github.com/omerbt/MultiDiffusion)\n2.pkuliyi2015's Tiled VAE algorithm."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TiledDiffusion"
+Icon = ""
